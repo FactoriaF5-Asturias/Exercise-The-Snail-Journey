@@ -1,0 +1,25 @@
+{
+  "name": "the-snail-journey",
+  "version": "1.0.0",
+  "description": "The snail journey exercise",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FactoriaF5-Asturias/Exercise-The-Snail-Journey.git"
+  },
+  "author": "Giacomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FactoriaF5-Asturias/Exercise-The-Snail-Journey/issues"
+  },
+  "homepage": "https://github.com/FactoriaF5-Asturias/Exercise-The-Snail-Journey#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
