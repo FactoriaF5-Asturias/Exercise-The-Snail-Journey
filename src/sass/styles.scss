@@ -1,5 +1,8 @@
 @import 'snail.scss';
 @import 'leaf.scss';
+@import 'leaf-left.scss';
+@import 'leaf-right.scss';
+@import 'leaf-bottom.scss';
 
 body {
     background-color: gray;
@@ -12,4 +15,8 @@ body {
     background-color: white;
     width: 500px;
     height: 500px;
+    background-image: url('http://3.bp.blogspot.com/-c-sl3_i6Ag8/T1H_jcBe2FI/AAAAAAAAdyE/iM1EwByX4j8/s1600/paisajesdebosqueparaimprimir2.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
 }
