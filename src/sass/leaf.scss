@@ -1,8 +1,37 @@
-.leaf {
-    z-index: 0;
-    width: 50px;
-    position: absolute;
-    left: 50%;
-    margin-left: 70px;
-    margin-top: 190px;
+
+.leaf-up {
+  z-index: 0;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: 70px;
+  margin-top: 190px;
+}
+
+.leaf-left {
+  z-index: 0;
+  width: 50px;
+  position: relative;
+  top: 50%;
+  margin-top: -75px;
+  left: 50px;
+}
+
+.leaf-right {
+  z-index: 0;
+  width: 50px;
+  position: relative;
+  top: 50%;
+  left: 365px;
+  margin-top: -75px;
+}
+
+.leaf-bottom {
+  z-index: 0;
+  width: 50px;
+  margin-top: -165px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -25px;
 }

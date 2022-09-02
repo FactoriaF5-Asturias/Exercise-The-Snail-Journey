@@ -1,8 +1,5 @@
 @import 'snail.scss';
 @import 'leaf.scss';
-@import 'leaf-left.scss';
-@import 'leaf-right.scss';
-@import 'leaf-bottom.scss';
 
 body {
     background-color: gray;
@@ -19,4 +16,5 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
+    border-radius: 20px;
 }
