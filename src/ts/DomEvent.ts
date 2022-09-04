@@ -23,6 +23,7 @@ export default class DomEvent {
             leaf.addEventListener('click', (element) => {
                 const el = element.target as HTMLImageElement;
                 this.snail.move(el.offsetLeft,el.offsetTop);
+                this.snail.eat(el);
             })
         }
     }

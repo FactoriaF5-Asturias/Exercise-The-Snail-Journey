@@ -24,4 +24,8 @@ export default class Snail {
         this.element.style.top = posY + "px";
         console.log(`posX: ${posX}. posY: ${posY} / ${this.element.style.left} + ${this.element.style.top}`);
     }
+
+    eat(food:HTMLImageElement) : void {
+        food.hidden = true;
+    }
 }

@@ -1,9 +1,8 @@
-import DomEvent from "./DomEvent";
-import Leaf from "./models/Leaf";
+import Game from "./Game";
 
 function app() {
     
-    new DomEvent().setEventsClick(new Leaf().getAll());
+    new Game;
     
 }
 
