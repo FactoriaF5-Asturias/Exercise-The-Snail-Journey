@@ -1,4 +1,5 @@
 # The Snail Journey
+The customer needs a mini game to help kids improve their mouse agility
 
 ## Pre-requirement
 - Node.js and npm installed (https://nodejs.org/en/)
@@ -16,9 +17,10 @@ $ npm install
 
 ### Steps
 
-1. The snail can move right (200px) and eat the leaf
-2. The snail can move left (200px) and eat the leaf
-3. The snail can move up (200px) and eat the leaf
-4. The snail can move down (200px) and eat the leaf
-5. When the snail have eated all leafs, it will say thank you.
-6. When the snail eat a leaf, it gets fat
+1. The snail can move to the leaves by clicking on them.
+2. When a leaf is devoured it disappears.
+3. When the snail eat a leaf, it gets fat.
+
+### Extra Challenge
+1. The leaves appear on the screen randomly (ramdom position) every 5 seconds.
+2. A magic potion appears on the screen every 10 seconds so that the snail can return to its normal size (width: 25px).
