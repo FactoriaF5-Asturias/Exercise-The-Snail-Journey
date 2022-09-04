@@ -1,10 +1,18 @@
 # The Snail Journey
 
 ## Pre-requirement
-- Node.js and npm installed
+- Node.js and npm installed (https://nodejs.org/en/)
+- You can check using your terminal and ...
+
+```
+$ node --version
+$ npm --version
+```
 
 ## Installation
-- npm install
+```
+$ npm install
+```
 
 ### Steps
 
