@@ -1,8 +1,32 @@
-.leaf {
-    z-index: 0;
-    width: 50px;
-    position: absolute;
-    left: 50%;
-    margin-left: 70px;
-    margin-top: 190px;
+
+.leaf-up {
+  z-index: 0;
+  width: 50px;
+  position: absolute;
+  left: 523px;
+  top: 260px
+}
+
+.leaf-left {
+  z-index: 0;
+  width: 50px;
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+
+.leaf-right {
+  z-index: 0;
+  width: 50px;
+  position: absolute;
+  left: 430px;
+  top: 340px;
+}
+
+.leaf-bottom {
+  z-index: 0;
+  width: 50px;
+  position: absolute;
+  left: 250px;
+  top: 570px;
 }
