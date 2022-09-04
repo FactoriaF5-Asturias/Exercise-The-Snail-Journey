@@ -27,5 +27,12 @@ export default class Snail {
 
     eat(food:HTMLImageElement) : void {
         food.hidden = true;
+        this.getFat();
+    }
+
+    getFat() : void {
+        let size:number = this.element.width;
+        size += 20;
+        this.element.style.width = size + "px";
     }
 }
