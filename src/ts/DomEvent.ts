@@ -1,4 +1,4 @@
-import Snail from "./Snail";
+import Snail from "./models/Snail";
 
 export default class DomEvent {
     

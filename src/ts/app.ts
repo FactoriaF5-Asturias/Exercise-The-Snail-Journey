@@ -1,4 +1,4 @@
-import DomEvent from "./models/DomEvent";
+import DomEvent from "./DomEvent";
 import Leaf from "./models/Leaf";
 
 function app() {
