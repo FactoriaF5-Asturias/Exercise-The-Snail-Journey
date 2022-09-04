@@ -2,7 +2,7 @@
 .leaf-up {
   z-index: 0;
   width: 50px;
-  position: relative;
+  position: absolute;
   left: 290px;
   top: 260px
 }
@@ -10,7 +10,7 @@
 .leaf-left {
   z-index: 0;
   width: 50px;
-  position: relative;
+  position: absolute;
   left: 30px;
   top: 300px;
 }
@@ -18,7 +18,7 @@
 .leaf-right {
   z-index: 0;
   width: 50px;
-  position: relative;
+  position: absolute;
   left: 430px;
   top: 340px;
 }
@@ -26,7 +26,7 @@
 .leaf-bottom {
   z-index: 0;
   width: 50px;
-  position: relative;
+  position: absolute;
   left: 250px;
   top: 570px;
 }
