@@ -5,24 +5,21 @@ export default class Snail {
     posY!: number;
 
     constructor() {
-        this.getSnail();
+        this.setSnail();
     }
 
-    getSnail() : HTMLElement | null {
+    setSnail() : void {
         this.element = document.getElementById('snail') as HTMLImageElement;
 
         if(this.element) {
             this.posX = this.element.offsetLeft;
             this.posY = this.element.offsetLeft;
         }
-
-        return null;
     }
 
     move(posX:number,posY:number) : void {
         this.element.style.left = posX + "px";
         this.element.style.top = posY + "px";
-        console.log(`posX: ${posX}. posY: ${posY} / ${this.element.style.left} + ${this.element.style.top}`);
     }
 
     eat(food:HTMLImageElement) : void {
