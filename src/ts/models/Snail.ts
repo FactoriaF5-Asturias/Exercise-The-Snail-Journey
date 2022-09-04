@@ -19,6 +19,9 @@ export default class Snail {
         return null;
     }
 
-    move(x:number,y:number) : void {
+    move(posX:number,posY:number) : void {
+        this.element.style.left = posX + "px";
+        this.element.style.top = posY + "px";
+        console.log(`posX: ${posX}. posY: ${posY} / ${this.element.style.left} + ${this.element.style.top}`);
     }
 }

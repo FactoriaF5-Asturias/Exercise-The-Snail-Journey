@@ -2,36 +2,31 @@
 .leaf-up {
   z-index: 0;
   width: 50px;
-  position: absolute;
-  left: 50%;
-  margin-left: 70px;
-  margin-top: 190px;
+  position: relative;
+  left: 290px;
+  top: 198px
 }
 
 .leaf-left {
   z-index: 0;
   width: 50px;
   position: relative;
-  top: 50%;
-  margin-top: -75px;
-  left: 50px;
+  left: 55px;
+  top: 246px;
 }
 
 .leaf-right {
   z-index: 0;
   width: 50px;
   position: relative;
-  top: 50%;
-  left: 365px;
-  margin-top: -75px;
+  left: 370px;
+  top: 255px;
 }
 
 .leaf-bottom {
   z-index: 0;
   width: 50px;
-  margin-top: -165px;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -25px;
+  position: relative;
+  left: 250px;
+  top: 450px;
 }

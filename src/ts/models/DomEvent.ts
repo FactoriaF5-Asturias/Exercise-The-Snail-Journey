@@ -1,7 +1,11 @@
+import Snail from "./Snail";
+
 export default class DomEvent {
     
+    private snail:Snail;
+
     constructor() {
-        
+        this.snail = new Snail;
     }
 
     setEventsClick(leafs:HTMLCollection) : void {
@@ -16,9 +20,9 @@ export default class DomEvent {
 
         for (let index = 0; index < leafs.length; index++) {
             const leaf = leafs[index];
-            leaf.addEventListener('click', function(element) {
+            leaf.addEventListener('click', (element) => {
                 const el = element.target as HTMLImageElement;
-                console.log(`clicked: x-${el.offsetLeft}, y-${el.offsetTop}`);
+                this.snail.move(el.offsetLeft,el.offsetTop);
             })
         }
     }

@@ -1,9 +1,9 @@
-import Event from "./models/DomEvent";
+import DomEvent from "./models/DomEvent";
 import Leaf from "./models/Leaf";
 
 function app() {
     
-    new Event().setEventsClick(new Leaf().getAll());
+    new DomEvent().setEventsClick(new Leaf().getAll());
     
 }
 
