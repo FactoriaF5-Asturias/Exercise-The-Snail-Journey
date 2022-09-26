@@ -15,6 +15,11 @@ $ npm --version
 $ npm install
 ```
 
+### Run Server
+```
+$ npm run start
+```
+
 ### User Stories
 
 As a gamer
